@@ -18,7 +18,5 @@ public class crosshairmove : MonoBehaviour
         {
             gameObject.transform.position += new Vector3(xaxis, zaxis, 0) * Time.deltaTime * speed;
         }
-
-
     }
 }
